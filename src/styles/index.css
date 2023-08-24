@@ -1,12 +1,21 @@
+body{
+    background-color: black;
+}
 
-/* 
+#app{
+    display:flex;
+    justify-content: center;
+    color:rgb(224, 224, 224);
+    letter-spacing: 2px;
+    margin-top: 33vh;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#app p{
+    font-size: 7vw;
+}
 
-*/
+#app i{
+    font-size: 6vw;
+    display: flex;
+    align-items: center;
+}
