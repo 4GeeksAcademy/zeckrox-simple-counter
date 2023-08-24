@@ -4,10 +4,15 @@ body{
 
 #app{
     display:flex;
-    justify-content: center;
+    flex-direction: column;
     color:rgb(224, 224, 224);
     letter-spacing: 2px;
     margin-top: 33vh;
+}
+
+.count-container{
+    display:flex;
+    justify-content: center;
 }
 
 #app p{
@@ -18,4 +23,10 @@ body{
     font-size: 6vw;
     display: flex;
     align-items: center;
+}
+
+#app button{
+    width: 10%;
+    font-size: 1vw;
+    align-self:center;
 }

@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 
 const SecondsCounter = (props) => {
 	let number = props.count 
-	return <><i class="fa-regular fa-clock"></i> <p>{number?.toString().padStart(6, '0') || ""}</p></>
+	return <><button onClick={props.backwards}>{props.cuenta}</button><div className="count-container"><i className="fa-regular fa-clock"></i> <p>{number?.toString().padStart(6, '0') || ""}</p></div></>
 }
 
 export default SecondsCounter;
